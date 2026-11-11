@@ -1,13 +1,13 @@
 {
   "name": "Noxys_Swimming-Updated",
   "version": "0.5.3",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "title": "Noxys Swimming (2.1)",
   "author": "Noxy, updated by Alex Green",
   "homepage": "https://github.com/GreenTech-Solutions/Noxys_Swimming-Updated",
   "description": "Allows you to \"Swim\" through water.\nNoxys Swimming by Noxy, updated for Factorio 2.1. Setting names are unchanged.",
   "dependencies": [
-    "base >= 2.0",
+    "base >= 2.1.0",
     "? tiles-absorb-pollution",
     "! Noxys_Swimming"
   ]
