@@ -14,6 +14,8 @@ info() { python3 -c 'import json, sys; print(json.load(open(sys.argv[1]))[sys.ar
 
 mod=$(info name)
 fields=(
+  -F "mod=$mod"
+  -F "title=$(info title)"
   -F "summary=Noxys Swimming by Noxy, updated for Factorio 2.1: swim through water, with amphibious vehicles, sounds and water ripples."
   -F "description=<$here/description.md"
   -F "category=content"
