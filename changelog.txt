@@ -1,0 +1,5 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 2025-04-08
+  Info:
+    - Release 0.5.3 by Noxy as published on the mod portal; the original has no changelog

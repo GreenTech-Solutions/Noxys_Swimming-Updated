@@ -14,15 +14,15 @@ for _, water in pairs(waters) do
   -- Sound
   data.raw.tile[water].walking_sound = {
     {
-      filename = "__Noxys_Swimming__/sounds/water-1.ogg",
+      filename = "__Noxys_Swimming-Updated__/sounds/water-1.ogg",
       volume = 0.8
     },
     {
-      filename = "__Noxys_Swimming__/sounds/water-2.ogg",
+      filename = "__Noxys_Swimming-Updated__/sounds/water-2.ogg",
       volume = 0.8
     },
     {
-      filename = "__Noxys_Swimming__/sounds/water-3.ogg",
+      filename = "__Noxys_Swimming-Updated__/sounds/water-3.ogg",
       volume = 0.8
     }
   }
@@ -51,7 +51,7 @@ data:extend { {
   end_scale = 1,
   animation =
   {
-    filename = "__Noxys_Swimming__/graphics/water-splash.png",
+    filename = "__Noxys_Swimming-Updated__/graphics/water-splash.png",
     priority = "extra-high",
     width = 92,
     height = 66,
@@ -78,7 +78,7 @@ data:extend { {
   deviation = { 0, 0 },
   animation =
   {
-    filename = "__Noxys_Swimming__/graphics/water-splash.png",
+    filename = "__Noxys_Swimming-Updated__/graphics/water-splash.png",
     priority = "extra-high",
     width = 92,
     height = 66,
@@ -108,7 +108,7 @@ local function make_ripple(prefix, nr, color)
     deviation = { 0, 0 },
     animation =
     {
-      filename = "__Noxys_Swimming__/graphics/ripple" .. nr .. ".png",
+      filename = "__Noxys_Swimming-Updated__/graphics/ripple" .. nr .. ".png",
       priority = "extra-high",
       width = 192,
       height = 128,

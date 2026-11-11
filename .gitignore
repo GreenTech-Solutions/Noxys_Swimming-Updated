@@ -1,1 +1,4 @@
 sounds/*.wav
+/.vscode
+*.code-workspace
+*.zip
