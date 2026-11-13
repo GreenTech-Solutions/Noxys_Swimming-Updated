@@ -7,11 +7,21 @@ local waters = {
   wube = { ["water-wube"] = true },
 }
 
+local migrated_storage = require("migrated_storage")
+
+-- A save that had the original Noxys_Swimming (migrates_from in info.json) hands its storage over. It holds only the
+-- last splash position and the corpse list that is reset on every configuration change, so it is dropped.
+local function drop_original_storage()
+  migrated_storage.take({ "Noxys_Swimming" })
+end
+
 script.on_configuration_changed(function()
+  drop_original_storage()
   storage.corpses = {}
 end)
 
 script.on_init(function()
+  drop_original_storage()
   storage.corpses = storage.corpses or {}
 end)
 

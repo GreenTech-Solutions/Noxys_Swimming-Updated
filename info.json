@@ -10,5 +10,6 @@
     "base >= 2.1.0",
     "? tiles-absorb-pollution",
     "! Noxys_Swimming"
-  ]
+  ],
+  "migrates_from": ["Noxys_Swimming"]
 }
