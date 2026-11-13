@@ -1,6 +1,6 @@
 {
   "name": "Noxys_Swimming-Updated",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "factorio_version": "2.1",
   "title": "Noxys Swimming (2.1)",
   "author": "Noxy, updated by Alex Green",
@@ -11,5 +11,7 @@
     "? tiles-absorb-pollution",
     "! Noxys_Swimming"
   ],
-  "migrates_from": ["Noxys_Swimming"]
+  "migrates_from": [
+    "Noxys_Swimming"
+  ]
 }

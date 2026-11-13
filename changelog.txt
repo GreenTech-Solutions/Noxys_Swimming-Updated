@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 2026-11-13
+  Features:
+    - a save with the original Noxys_Swimming switches to this mod without leftover storage ([#1](https://github.com/GreenTech-Solutions/Noxys_Swimming-Updated/issues/1))
+---------------------------------------------------------------------------------------------------
 Version: 0.6.0
 Date: 2026-11-11
   Info:
